@@ -23,8 +23,9 @@
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>UI/UX Designer</p>
-                <h1>Hi, I'm <span>Anand</span><br>Kumar From India</h1>
+                <p>Hello my name is</p>
+                <h1><span>Anand</span>  Kumar</h1><br>
+                <h2>And I'm a <span class="input"></span></h2>
             </div>
         </div>
     </div>
@@ -156,6 +157,17 @@
         <p>Copyright &copy; Anand Made with <i class="fa-solid fa-heart"></i>Anand</p>
     </div>
  </div>
+ <!-- -------Typing animation---- -->
+ <script src="https://unpkg.com/typed.js@2.0.16"></script>
+<script>
+    var typed = new Typed(".input", {
+        strings: ['Coder', 'Competitive Programmer', 'Developer','Fast Learner'],
+        typeSpeed: 120,
+        backSpeed:110,
+        loop: true,
+    });
+</script>
+
     <script>
         var tablinks=document.getElementsByClassName("tab-links")
         var tabcontents=document.getElementsByClassName("tab-contents")
